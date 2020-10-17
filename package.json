@@ -1,0 +1,15 @@
+{
+  "name": "really",
+  "version": "0.0.1",
+  "description": "A stupid and totally unnecessary Javascript/ECMAScript minifier",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Frederik Hutfleß",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "fs": "0.0.1-security"
+  }
+}

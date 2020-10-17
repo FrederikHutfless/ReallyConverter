@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<script src="index.js"></script>
+<script type="script/really">⋓⏐"⋅</script>
+</head>
+<body onload="really_converter.convertAll();">
+<textarea id="js" style="width:100%;height:40%;">
+	//put JS code here
+</textarea>
+<br>
+<textarea id="rly" style="width:100%;height:40%;">
+	//put Really code here
+</textarea>
+<br>
+<button onclick="document.getElementById('rly').value=really_converter.js2really(document.getElementById('js').value);alert('Saved '+(document.getElementById('js').value.length-document.getElementById('rly').value.length)+' characters; input had '+document.getElementById('js').value.length+' characters.');">Convert JS to Really</button>
+<button onclick="document.getElementById('js').value=really_converter.really2js(document.getElementById('rly').value);alert(document.getElementById('js').value.length-document.getElementById('rly').value.length);">Convert Really to JS</button>
+</body>
+</html>
