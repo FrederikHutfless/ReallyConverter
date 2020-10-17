@@ -1,6 +1,6 @@
 # Really converter
 
-Really is a "programming language" that basically is JavaScript/ECMAScript Syntax, but with common long-ish words like `document.getElementsByClassName` replaced by single characters not commonly used. This means it's even smaller than regular minified JS, thus being faster to transmit, but needs to be decoded in the browser before it can be used. It usually saves around 25% of characters in common libraries.
+Really (or ReallyScript) is a "programming language" that basically is JavaScript/ECMAScript Syntax, but with common long-ish words like `document.getElementsByClassName` replaced by single characters not commonly used. This means it's even smaller than regular minified JS, thus being faster to transmit, but needs to be decoded in the browser before it can be used. It usually saves around 25% of characters in common libraries.
 
 The name comes from the expression people often say when I tell them what this does. I can't say they're wrong, it's really a stupid idea noone should ever use for anything other than fun.
 
@@ -10,6 +10,7 @@ Download this repository and install the npm packages as listed in `package.json
 ```bash
 node node.js --input file.js --output file.really		# Convert file.js to file.really and print stats
 node node.js --input file.js							# Convert file.js and output really code
+node node.js --webinput https://url.com/file.js			# Download from given URL and output really code
 ```
 
 ## Using Really in Websites

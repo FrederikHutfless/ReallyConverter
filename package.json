@@ -9,6 +9,7 @@
   "author": "Frederik Hutfleß",
   "license": "UNLICENSED",
   "dependencies": {
+    "axios": "^0.20.0",
     "command-line-args": "^5.1.1",
     "fs": "0.0.1-security"
   }
